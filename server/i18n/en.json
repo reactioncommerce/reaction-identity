@@ -1,0 +1,11 @@
+{
+  "createAccount": "Create an Account",
+  "emailAddress": "Email",
+  "forgotPassword": "Reset password",
+  "password": "Password",
+  "passwordResetSend": "Email with password reset link has been sent",
+  "resetYourPassword": "Reset your password",
+  "signIn": "Sign In",
+  "signUp": "Register",
+  "signUpButton": "Register"
+}
