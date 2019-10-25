@@ -1,0 +1,36 @@
+# This docker-compose file is used to run the reaction app in docker for development
+# The local files are mounted into the created container.
+# Usage: docker-compose up [-d]
+
+version: '3.4'
+
+networks:
+  auth:
+    external:
+      name: auth.reaction.localhost
+
+services:
+
+  identity:
+    build:
+      context: .
+      target: meteor-dev
+    command: bash -c "time meteor npm install --no-audit && "
+    env_file:
+      - ./.env
+    networks:
+      default:
+      api:
+      auth:
+      streams:
+    ports:
+      - "4080:4080"
+      - "9229:9229"
+    volumes:
+      - .:/opt/reaction/src:cached
+      - reaction_meteor_local:/opt/reaction/src/.meteor/local
+      - reaction_node_modules:/opt/reaction/src/node_modules # do not link node_modules in, and persist it between dc up runs
+
+volumes:
+  reaction_node_modules:
+  reaction_meteor_local:
