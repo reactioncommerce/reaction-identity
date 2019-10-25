@@ -1,0 +1,83 @@
+version: 2
+
+# The following stanza defines a map named defaults with a variable that may be
+# inserted using the YAML merge (<<: *) key later in the file to save some
+# typing. See http://yaml.org/type/merge.html for details.
+defaults: &defaults
+  environment:
+    CI_SCRIPTS: 'npx --quiet --package @reactioncommerce/ci-scripts@1.6.2'
+    DOCKER_REPOSITORY: "reactioncommerce/identity"
+    DOCKER_NAMESPACE: "reactioncommerce"
+    DOCKER_NAME: "identity"
+  docker:
+    - image: circleci/node:8.15.1-stretch
+
+jobs:
+  install-dependencies:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - reaction-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+            - reaction-v3-node-modules-{{ .Branch }}
+      - run:
+          name: Install NPM dependencies
+          command: npm install
+      - save_cache:
+          key: reaction-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - save_cache:
+          key: reaction-v3-node-modules-{{ .Branch }}
+          paths:
+            - node_modules
+
+  dockerfile-lint:
+    <<: *defaults
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - run:
+          name: Lint Dockerfiles
+          command: ${CI_SCRIPTS} lint-dockerfiles
+
+  eslint:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - reaction-v3-node-modules-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+            - reaction-v3-node-modules-{{ .Branch }}
+      - run:
+          name: Lint JavaScript
+          command: npm run lint
+
+  docker-build-push:
+    <<: *defaults
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+      - run:
+          name: Build and push production Docker image
+          command: ${CI_SCRIPTS} docker-build-tag-push . ${DOCKER_REPOSITORY}
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - install-dependencies
+      - dockerfile-lint:
+          requires:
+            - install-dependencies
+      - eslint:
+          requires:
+            - install-dependencies
+      - docker-build-push:
+          context: reaction-publish-docker
+          requires:
+            - dockerfile-lint
+            - eslint
