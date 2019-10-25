@@ -1,8 +1,23 @@
 {
   "name": "reaction-identity",
   "description": "A server providing identity services for Reaction Commerce using Meteor's Accounts packages",
+  "homepage": "https://github.com/reactioncommerce/reaction-identity",
+  "url": "https://github.com/reactioncommerce/reaction-identity",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactioncommerce/reaction-identity.git"
+  },
+  "author": {
+    "name": "Reaction Commerce",
+    "email": "engineering@reactioncommerce.com",
+    "url": "https://reactioncommerce.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reaction-identity/issues"
+  },
   "scripts": {
-    "start": "meteor run --port $PORT",
+    "start": "meteor run --port ${PORT:=4100}",
     "lint": "eslint .",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
