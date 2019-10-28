@@ -15,7 +15,7 @@ services:
     build:
       context: .
       target: meteor-dev
-    command: bash -c "time meteor npm install --no-audit && "
+    command: bash -c "time meteor npm install --no-audit && meteor npm start"
     env_file:
       - ./.env
     networks:
