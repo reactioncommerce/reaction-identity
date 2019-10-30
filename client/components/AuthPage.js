@@ -22,7 +22,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 /**
- *
+ * @summary AuthPage React component
+ * @param {Object} props Component props
+ * @return {React.Node} Rendered component instance
  */
 function AuthPage(props) {
   const classes = useStyles();

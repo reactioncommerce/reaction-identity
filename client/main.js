@@ -14,7 +14,8 @@ import "./i18n.js";
 const RouterContext = createContext(null);
 
 /**
- *
+ * @summary Asks the server what the GraphQL API URL is and returns it.
+ * @return {Promise<String>} The GraphQL API URL
  */
 function getGraphQlApiUrl() {
   return new Promise((resolve, reject) => {
@@ -29,7 +30,8 @@ function getGraphQlApiUrl() {
 }
 
 /**
- *
+ * @summary Initialize the app
+ * @return {Promise<undefined>} Nothing
  */
 async function init() {
   const graphQlApiUrl = await getGraphQlApiUrl();

@@ -14,7 +14,15 @@ import TextInput from "@reactioncommerce/components/TextInput/v1";
 import { Meteor } from "meteor/meteor";
 
 /**
- *
+ * @summary Does `Meteor.loginWithPassword` followed by
+ *   calling the "oauth/login" method.
+ * @param {Object} input Input
+ * @param {String} [input.challenge] Challenge to pass to the "oauth/login" method
+ *   after logging in.
+ * @param {String} input.email Email address to pass to `Meteor.loginWithPassword`
+ * @param {String} input.password Password to pass to `Meteor.loginWithPassword`
+ * @return {Promise<String|undefined>} Redirect URL or `undefined` if no
+ *   `challenge` argument was passed.
  */
 function callSignIn({ challenge, email, password }) {
   return new Promise((resolve, reject) => {
@@ -64,7 +72,9 @@ const formSchema = new SimpleSchema({
 const validator = formSchema.getFormValidator();
 
 /**
- *
+ * @summary SignIn React component
+ * @param {Object} props Component props
+ * @return {React.Node} Rendered component instance
  */
 function SignIn() {
   const { t } = useTranslation(); // eslint-disable-line id-length

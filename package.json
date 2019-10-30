@@ -75,10 +75,18 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2"
   },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "IE 11"
+  ],
   "eslintConfig": {
     "extends": "@reactioncommerce",
     "settings": {
-      "import/resolver": "meteor"
+      "import/resolver": "meteor",
+      "react": {
+        "version": "detect"
+      }
     },
     "globals": {
       "Package": true

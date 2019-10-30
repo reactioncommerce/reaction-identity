@@ -44,7 +44,9 @@ const formSchema = new SimpleSchema({
 const validator = formSchema.getFormValidator();
 
 /**
- *
+ * @summary ForgotPassword React component
+ * @param {Object} props Component props
+ * @return {React.Node} Rendered component instance
  */
 function ForgotPassword() {
   const [submitWasSuccessful, setSubmitWasSuccessful] = useState(false);

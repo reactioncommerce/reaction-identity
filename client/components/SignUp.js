@@ -15,11 +15,19 @@ import { Accounts } from "meteor/accounts-base";
 import { Meteor } from "meteor/meteor";
 
 /**
- *
+ * @summary Does `Accounts.createUser` followed by
+ *   calling the "oauth/login" method.
+ * @param {Object} input Input
+ * @param {String} [input.challenge] Challenge to pass to the "oauth/login" method
+ *   after logging in.
+ * @param {String} input.email Email address to pass to `Accounts.createUser`
+ * @param {String} input.password Password to pass to `Accounts.createUser`
+ * @return {Promise<String|undefined>} Redirect URL or `undefined` if no
+ *   `challenge` argument was passed.
  */
 function callSignUp({ challenge, email, password }) {
   return new Promise((resolve, reject) => {
-    Accounts.createUser({ email, password }, (error, result) => {
+    Accounts.createUser({ email, password }, (error) => {
       if (error) {
         reject(error);
       } else {
@@ -66,7 +74,9 @@ const formSchema = new SimpleSchema({
 const validator = formSchema.getFormValidator();
 
 /**
- *
+ * @summary SignUp React component
+ * @param {Object} props Component props
+ * @return {React.Node} Rendered component instance
  */
 function SignUp() {
   const { t } = useTranslation(); // eslint-disable-line id-length
@@ -107,7 +117,13 @@ function SignUp() {
         {t("createAccount")}
       </div>
 
-      <Field isRequired errors={getErrors(["email"])} name="email" label={t("emailAddress")} labelFor={`email-${uniqueId}`}>
+      <Field
+        errors={getErrors(["email"])}
+        isRequired
+        label={t("emailAddress")}
+        labelFor={`email-${uniqueId}`}
+        name="email"
+      >
         <TextInput
           type="email"
           id={`email-${uniqueId}`}
@@ -115,7 +131,13 @@ function SignUp() {
         />
         <ErrorsBlock errors={getErrors(["email"])} />
       </Field>
-      <Field isRequired errors={getErrors(["password"])} name="password" label={t("password")} labelFor={`password-${uniqueId}`}>
+      <Field
+        errors={getErrors(["password"])}
+        isRequired
+        label={t("password")}
+        labelFor={`password-${uniqueId}`}
+        name="password"
+      >
         <TextInput
           type="password"
           id={`password-${uniqueId}`}
