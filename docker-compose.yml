@@ -24,8 +24,7 @@ services:
       auth:
       streams:
     ports:
-      - "4080:4080"
-      - "9229:9229"
+      - "4100:4100"
     volumes:
       - .:/opt/reaction/src:cached
       - reaction_meteor_local:/opt/reaction/src/.meteor/local
