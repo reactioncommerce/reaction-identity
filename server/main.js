@@ -1,4 +1,5 @@
 import { Meteor } from "meteor/meteor";
+import Logger from "@reactioncommerce/logger";
 import config from "./config.js";
 import { oauthLogin } from "./oauthMethods.js";
 
@@ -10,3 +11,7 @@ Meteor.methods({
 // Init endpoints
 import "./i18n/handler.js";
 import "./oauthEndpoints.js";
+
+Meteor.startup(() => {
+  Logger.info(`Serving Reaction Identity at ${config.ROOT_URL}`);
+});

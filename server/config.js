@@ -9,5 +9,6 @@ export default envalid.cleanEnv(process.env, {
   HYDRA_OAUTH2_ERROR_URL: str({ default: "" }),
   HYDRA_SESSION_LIFESPAN: num({ default: 86400 }),
   MOCK_TLS_TERMINATION: bool({ default: false }),
-  OAUTH2_CLIENT_DOMAINS: str({ default: "" })
+  OAUTH2_CLIENT_DOMAINS: str({ default: "" }),
+  ROOT_URL: str()
 });
