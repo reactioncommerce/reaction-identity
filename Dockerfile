@@ -24,7 +24,7 @@ RUN printf "\\n[-] Building Meteor application...\\n" \
 ##############################################################################
 # final build stage - create the final production image
 ##############################################################################
-FROM node:8.15.1-slim
+FROM node:8.17.0-slim
 
 LABEL maintainer="Reaction Commerce <engineering@reactioncommerce.com>"
 
