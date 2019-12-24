@@ -1,4 +1,5 @@
 import ForgotPassword from "./components/ForgotPassword.js";
+import ResetPassword from "./components/ResetPassword.js";
 import SignIn from "./components/SignIn.js";
 import SignUp from "./components/SignUp.js";
 
@@ -12,7 +13,11 @@ export default [
     mainComponent: SignUp
   },
   {
-    path: "/account/reset-password",
+    path: "/account/forgot-password",
     mainComponent: ForgotPassword
+  },
+  {
+    path: "/account/reset-password/:token",
+    mainComponent: ResetPassword
   }
 ];

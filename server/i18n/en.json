@@ -3,9 +3,12 @@
   "emailAddress": "Email",
   "forgotPassword": "Reset password",
   "password": "Password",
+  "passwordResetDone": "Password reset complete.",
   "passwordResetSend": "Email with password reset link has been sent",
   "resetYourPassword": "Reset your password",
+  "setPassword": "Set password",
   "signIn": "Sign In",
   "signUp": "Register",
-  "signUpButton": "Register"
+  "signUpButton": "Register",
+  "updateYourPassword": "Set new password"
 }

@@ -165,7 +165,7 @@ function SignIn() {
         isFullWidth
         isShortHeight
         isTextOnly
-        onClick={() => { history.push({ pathname: "/account/reset-password", search: location.search }); }}
+        onClick={() => { history.push({ pathname: "/account/forgot-password", search: location.search }); }}
       >
         {t("forgotPassword")}
       </Button>
