@@ -51,6 +51,6 @@ function OAuthError() {
       </div>
     </div>
   );
-};
+}
 
 export default OAuthError;
