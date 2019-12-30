@@ -105,17 +105,6 @@ WebApp.connectHandlers.use("/token/refresh", async (req, res) => {
   return res.end(JSON.stringify(apiRes));
 });
 
-WebApp.connectHandlers.use("/logout-user", (req, res) => {
-  hydra
-    .deleteUserSession(req.query.userId)
-    .then(() => {
-      Logger.debug(`Delete user session complete for userId: ${req.query.userId}`);
-      res.writeHead(200);
-      return res.end();
-    })
-    .catch((errorMessage) => errorHandler(errorMessage, res));
-});
-
 WebApp.connectHandlers.use("/logout", (req, res) => {
   const challenge = req.query.logout_challenge;
   hydra.getLogoutRequest(challenge)
