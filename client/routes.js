@@ -1,3 +1,4 @@
+import ChangePassword from "./components/ChangePassword.js";
 import ForgotPassword from "./components/ForgotPassword.js";
 import ResetPassword from "./components/ResetPassword.js";
 import SignIn from "./components/SignIn.js";
@@ -19,5 +20,9 @@ export default [
   {
     path: "/account/reset-password/:token",
     mainComponent: ResetPassword
+  },
+  {
+    path: "/account/change-password",
+    mainComponent: ChangePassword
   }
 ];

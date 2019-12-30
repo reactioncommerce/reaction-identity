@@ -1,8 +1,12 @@
 {
+  "changePassword": "Change password",
   "createAccount": "Create an Account",
+  "currentPassword": "Current password",
   "emailAddress": "Email",
   "forgotPassword": "Reset password",
+  "newPassword": "New password",
   "password": "Password",
+  "passwordChanged": "Password changed",
   "passwordResetDone": "Password reset complete.",
   "passwordResetSend": "Email with password reset link has been sent",
   "resetYourPassword": "Reset your password",

@@ -14,8 +14,7 @@ import { Accounts } from "meteor/accounts-base";
 import { Meteor } from "meteor/meteor";
 
 /**
- * @summary Does `Accounts.resetPassword` followed by
- *   calling the "oauth/login" method.
+ * @summary Does `Accounts.resetPassword`
  * @param {Object} input Input
  * @param {String} [input.challenge] Challenge to pass to the "oauth/login" method
  *   after logging in.
