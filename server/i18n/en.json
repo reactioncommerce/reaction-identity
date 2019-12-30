@@ -1,8 +1,10 @@
 {
+  "authError": "There was a problem with authentication",
   "changePassword": "Change password",
   "createAccount": "Create an Account",
   "currentPassword": "Current password",
   "emailAddress": "Email",
+  "error": "Error",
   "forgotPassword": "Reset password",
   "newPassword": "New password",
   "password": "Password",
