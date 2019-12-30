@@ -100,7 +100,7 @@ function deleteUserSession(id) {
  * @returns {Object|String} API res
  */
 async function refreshAuthToken({ refreshToken, clientId, clientSecret }) {
-  const response = await fetch(`${HYDRA_TOKEN_URL}`, {
+  const response = await fetch(HYDRA_TOKEN_URL, {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     method: "POST",
     body: `grant_type=refresh_token&refresh_token=${refreshToken}&response_type=token&client_id=${clientId}&client_secret=${clientSecret}`
