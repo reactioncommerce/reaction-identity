@@ -1,4 +1,5 @@
 import { check, Match } from "meteor/check";
+import { Meteor } from "meteor/meteor";
 import Logger from "@reactioncommerce/logger";
 import config from "./config.js";
 import hydra from "./hydra.js";
@@ -19,6 +20,8 @@ export function oauthLogin(options) {
   check(options.remember, Match.Maybe(Boolean));
   const { challenge, remember = true } = options;
 
+  if (!this.userId) throw new Meteor.Error("Access Denied");
+
   return hydra
     .acceptLoginRequest(challenge, {
       subject: this.userId,
@@ -30,7 +33,14 @@ export function oauthLogin(options) {
       // eslint-disable-next-line camelcase
       remember_for: HYDRA_SESSION_LIFESPAN
     })
-    .then((response) => response.redirect_to)
+    .then((response) => {
+      // Now that we are done with the Meteor Accounts login session, log out. According to Hydra docs,
+      // the Identity Server must not implement any kind of session or remember the user in any way.
+      Meteor.call("logout");
+
+      // The return the redirect URL to the browser so it can navigate there
+      return response.redirect_to;
+    })
     .catch((error) => {
       Logger.error(error);
       throw error;

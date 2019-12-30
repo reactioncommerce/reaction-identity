@@ -25,6 +25,10 @@ const errorHandler = (errorMessage, res) => {
 WebApp.connectHandlers.use("/login", (req, res) => {
   const challenge = req.query.login_challenge;
 
+  // From the Hydra docs:
+  // "The endpoint handler at /login must not remember previous sessions. This task is solved by ORY Hydra.
+  // If the REST API call tells you to show the login ui, you must show it. If the REST API tells you to
+  // not show the login ui, you must not show it. Again, do not implement any type of session here."
   hydra.getLoginRequest(challenge)
     .then(async (getLoginRequestRes) => {
       const requestUrl = url.parse(getLoginRequestRes.request_url, true);
