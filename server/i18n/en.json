@@ -1,11 +1,20 @@
 {
+  "authError": "There was a problem with authentication",
+  "changePassword": "Change password",
   "createAccount": "Create an Account",
+  "currentPassword": "Current password",
   "emailAddress": "Email",
+  "error": "Error",
   "forgotPassword": "Reset password",
+  "newPassword": "New password",
   "password": "Password",
+  "passwordChanged": "Password changed",
+  "passwordResetDone": "Password reset complete.",
   "passwordResetSend": "Email with password reset link has been sent",
   "resetYourPassword": "Reset your password",
+  "setPassword": "Set password",
   "signIn": "Sign In",
   "signUp": "Register",
-  "signUpButton": "Register"
+  "signUpButton": "Register",
+  "updateYourPassword": "Set new password"
 }

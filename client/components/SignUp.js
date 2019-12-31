@@ -51,7 +51,7 @@ const useStyles = makeStyles(() => ({
   inlineAlert: {
     marginBottom: 16
   },
-  loginFormTitle: {
+  pageTitle: {
     color: "#1999dd",
     fontFamily: "'Source Sans Pro', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif",
     fontSize: 30,
@@ -113,7 +113,7 @@ function SignUp() {
 
   return (
     <div>
-      <div className={classes.loginFormTitle}>
+      <div className={classes.pageTitle}>
         {t("createAccount")}
       </div>
 
