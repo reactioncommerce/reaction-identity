@@ -1,0 +1,18 @@
+{
+  "changePassword": "Cambia password",
+  "createAccount": "Crea un Account",
+  "currentPassword": "Password corrente",
+  "emailAddress": "Indirizzo Email",
+  "error": "Errore",
+  "forgotPassword": "Hai dimenticato la password?",
+  "newPassword": "Nuova password",
+  "password": "Password",
+  "passwordChanged": "Password cambiata",
+  "passwordResetSend": "E-mail con il link per reimpostare la password è stata inviata.",
+  "resetYourPassword": "Reimposta la password",
+  "setPassword": "Imposta password",
+  "signIn": "Accedi",
+  "signUp": "Registrati",
+  "signUpButton": "Registrazione",
+  "updateYourPassword": "Aggiorna la password"
+}

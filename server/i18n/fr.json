@@ -1,0 +1,18 @@
+{
+  "changePassword": "Modifier le mot de passe",
+  "createAccount": "Créer un compte",
+  "currentPassword": "Mot de passe actuel",
+  "emailAddress": "Adresse e-mail",
+  "error": "Erreur",
+  "forgotPassword": "Mot de passe oublié",
+  "newPassword": "Nouveau mot de passe",
+  "password": "Mot de passe",
+  "passwordChanged": "Mot de passe modifié",
+  "passwordResetSend": "Un e-mail contenant un lien de réinitialisation du mot de passe a été envoyé.",
+  "resetYourPassword": "Réinitialisez votre mot de passe",
+  "setPassword": "Définir le mot de passe",
+  "signIn": "Connexion",
+  "signUp": "Créer un compte",
+  "signUpButton": "Créer un compte",
+  "updateYourPassword": "Mettre à jour votre mot de passe"
+}

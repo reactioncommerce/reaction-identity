@@ -1,0 +1,18 @@
+{
+  "changePassword": "غير كلمة السر",
+  "createAccount": "افتح حساب جديد",
+  "currentPassword": "كلمة السر الحالية",
+  "emailAddress": "البريد الالكترونى",
+  "error": "خطأ",
+  "forgotPassword": "نسيت كلمة السر؟",
+  "newPassword": "كلمة السر الجديدة",
+  "password": "كلمة السر",
+  "passwordChanged": "تم تغيير كلمة السر",
+  "passwordResetSend": "تم ارسال البريد الإلكتروني مع رابط لإعادة تعيين كلمة المرور.",
+  "resetYourPassword": "اعادة تعيين كلمة السر",
+  "setPassword": "تعيين كلمة السر",
+  "signIn": "تسجيل الدخول",
+  "signUp": "افتح حساب جديد",
+  "signUpButton": "تسجيل ",
+  "updateYourPassword": "جدد كلمة السر"
+}

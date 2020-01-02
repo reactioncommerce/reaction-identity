@@ -1,0 +1,18 @@
+{
+  "changePassword": "Schimbaţi parola",
+  "createAccount": "Creează un cont",
+  "currentPassword": "Parola curentă",
+  "emailAddress": "Adresa de email",
+  "error": "Eroare",
+  "forgotPassword": "Resetează parola",
+  "newPassword": "Noua Parolă",
+  "password": "Parola",
+  "passwordChanged": "Parola a fost schimbată",
+  "passwordResetSend": "E-mail-ul cu link-ul de resetare a parolei a fost trimis.",
+  "resetYourPassword": "Resetează parola",
+  "setPassword": "Seteaza parola",
+  "signIn": "Autentificare",
+  "signUp": "Înregistrează-te",
+  "signUpButton": "Înregistrează-te",
+  "updateYourPassword": "Actualizati parola"
+}

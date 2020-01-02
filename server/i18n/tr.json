@@ -1,0 +1,18 @@
+{
+  "changePassword": "Şifre Değiştir",
+  "createAccount": "Hesap Oluştur",
+  "currentPassword": "Geçerli Şifre",
+  "emailAddress": "E-posta Adresi",
+  "error": "Hata",
+  "forgotPassword": "Şifremi Unuttum",
+  "newPassword": "Yeni Şifre",
+  "password": "Şifre",
+  "passwordChanged": "Şifre değiştirildi",
+  "passwordResetSend": "şifre sıfırlama bağlantısı içeren e-posta gönderildi.",
+  "resetYourPassword": "Şifrenizi sıfırlayın",
+  "setPassword": "Şifreyi Ayarla",
+  "signIn": "Giriş Yap",
+  "signUp": "Kaydol",
+  "signUpButton": "Kayıt",
+  "updateYourPassword": "Şifrenizi güncelleyin"
+}

@@ -1,0 +1,18 @@
+{
+  "changePassword": "Alterar palavra-passe",
+  "createAccount": "Criar uma conta",
+  "currentPassword": "Palavra-passe atual",
+  "emailAddress": "Endereço de email",
+  "error": "Erro",
+  "forgotPassword": "Repor palavra-passe",
+  "newPassword": "Nova palavra-passe",
+  "password": "Palavra-passe",
+  "passwordChanged": "Palavra-passe alterada",
+  "passwordResetSend": "Foi enviado um email com uma ligação para repor a palavra-passe.",
+  "resetYourPassword": "Repor a sua palavra-passe",
+  "setPassword": "Definir a palavra-passe",
+  "signIn": "Iniciar sessão",
+  "signUp": "Registar",
+  "signUpButton": "Registar",
+  "updateYourPassword": "Atualizar a sua palavra-passe"
+}

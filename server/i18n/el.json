@@ -1,0 +1,18 @@
+{
+  "changePassword": "Αλλαγή κωδικού",
+  "createAccount": "Δημιουργία λογαριασμού",
+  "currentPassword": "Τρέχον κωδικός",
+  "emailAddress": "Διεύθυνση Email",
+  "error": "Σφάλμα",
+  "forgotPassword": "Επαναφορά κωδικού",
+  "newPassword": "Νέος κωδικός",
+  "password": "Κωδικός",
+  "passwordChanged": "Ο κωδικός άλλαξε επιτυχώς",
+  "passwordResetSend": "E-mail με σύνδεσμο επαναφοράς κωδικού πρόσβασης έχει αποσταλεί.",
+  "resetYourPassword": "Επαναφορά κωδικού",
+  "setPassword": "Διάλεξε κωδικό",
+  "signIn": "Σύνδεση",
+  "signUp": "Εγγραφή",
+  "signUpButton": "Κανω ΕΓΓΡΑΦΗ",
+  "updateYourPassword": "Ενημέρωση κωδικού"
+}

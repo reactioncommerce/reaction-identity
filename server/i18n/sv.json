@@ -1,0 +1,18 @@
+{
+  "changePassword": "Ändra lösenord",
+  "createAccount": "Skapa ett konto",
+  "currentPassword": "Nuvarande lösenord",
+  "emailAddress": "E-postadress",
+  "error": "Fel",
+  "forgotPassword": "Glömt din e-postadress?",
+  "newPassword": "Nytt lösenord",
+  "password": "Lösenord",
+  "passwordChanged": "Lösenordet har ändrats",
+  "passwordResetSend": "E-post med återställningslänk för ändring av lösenordet har skickats.",
+  "resetYourPassword": "Återställ ditt lösenord",
+  "setPassword": "Välj ett lösenord",
+  "signIn": "Logga in",
+  "signUp": "Skapa konto",
+  "signUpButton": "Registrera",
+  "updateYourPassword": "Uppdatera ditt lösenord"
+}

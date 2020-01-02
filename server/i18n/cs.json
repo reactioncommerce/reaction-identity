@@ -1,0 +1,18 @@
+{
+  "changePassword": "Změnte heslo",
+  "createAccount": "Vytvořit účet",
+  "currentPassword": "Současné heslo",
+  "emailAddress": "Emailová adresa",
+  "error": "Chyba",
+  "forgotPassword": "Zapomenuté heslo?",
+  "newPassword": "Nové heslo",
+  "password": "Heslo",
+  "passwordChanged": "Heslo změněno",
+  "passwordResetSend": "byl odeslán e-mail s odkazem pro resetování hesla.",
+  "resetYourPassword": "Resetovat heslo",
+  "setPassword": "Nastavit heslo",
+  "signIn": "Přihlásit se",
+  "signUp": "Registrovat",
+  "signUpButton": "Registrovat",
+  "updateYourPassword": "Aktualizujte si své heslo"
+}

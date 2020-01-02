@@ -1,0 +1,18 @@
+{
+  "changePassword": "שינוי סיסמא",
+  "createAccount": "הוספת חשבון",
+  "currentPassword": "סיסמא נוכחית",
+  "emailAddress": "דוא\"ל",
+  "error": "שגיאה",
+  "forgotPassword": "שכחת סיסמא?",
+  "newPassword": "סיסמא חדשה",
+  "password": "סיסמא",
+  "passwordChanged": "סיסמתך שונתה בהצלחה",
+  "passwordResetSend": "הודעת דוא\"ל עם קישור לאיפוס הסיסמה נשלחה.",
+  "resetYourPassword": "איפוס סיסמא",
+  "setPassword": "עדכון סיסמא",
+  "signIn": "כניסה",
+  "signUp": "הרשמה לחשבון",
+  "signUpButton": "בצע רישום",
+  "updateYourPassword": "עדכון סיסמא"
+}

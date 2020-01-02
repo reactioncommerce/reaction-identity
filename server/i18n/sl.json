@@ -1,0 +1,18 @@
+{
+  "changePassword": "Spremeni geslo",
+  "createAccount": "Nova registracija",
+  "currentPassword": "Trenutno geslo",
+  "emailAddress": "Email naslov",
+  "error": "Napaka",
+  "forgotPassword": "Pozabljeno geslo?",
+  "newPassword": "Novo geslo",
+  "password": "Geslo",
+  "passwordChanged": "Geslo spremenjeno",
+  "passwordResetSend": "E-pošta s povezavo za ponastavitev gesla so bila poslana.",
+  "resetYourPassword": "Ponastavi geslo",
+  "setPassword": "Nastavi geslo",
+  "signIn": "Prijava",
+  "signUp": "Registracija",
+  "signUpButton": "Register",
+  "updateYourPassword": "Spremeni geslo"
+}

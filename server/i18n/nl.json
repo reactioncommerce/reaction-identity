@@ -1,0 +1,18 @@
+{
+  "changePassword": "Wachtwoord wijzigen",
+  "createAccount": "Account aanmaken",
+  "currentPassword": "Huidig wachtwoord",
+  "emailAddress": "E-mailadres",
+  "error": "Fout",
+  "forgotPassword": "Wachtwoord herstellen",
+  "newPassword": "Nieuw wachtwoord",
+  "password": "Wachtwoord",
+  "passwordChanged": "Wachtwoord veranders",
+  "passwordResetSend": "E-mail met wachtwoord opnieuw verbinding is verzonden.",
+  "resetYourPassword": "Uw wachtwoord resetten",
+  "setPassword": "Wachtwoord instellen",
+  "signIn": "Inloggen",
+  "signUp": "Registreren",
+  "signUpButton": "Register",
+  "updateYourPassword": "Uw wachtwoord bijwerken"
+}
