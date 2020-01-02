@@ -1,0 +1,18 @@
+{
+  "changePassword": "စကားဝှက်ပြောင်းရန်",
+  "createAccount": "အကောင့်အသစ်ဖွင့်ရန်",
+  "currentPassword": "လက်ရှိ စကားဝှက်",
+  "emailAddress": "အီးမေးလ်",
+  "error": "အမှား",
+  "forgotPassword": "စကားဝှက်မေ့သွားပါသလား။",
+  "newPassword": "စကားဝှက် အသစ်",
+  "password": "စကားဝှက်",
+  "passwordChanged": "စကားဝှက် ပြောင်းလိုက်ပြီးဖြစ်သည်",
+  "passwordResetSend": "စကားဝှက်ပြန်ညှိ link ကိုအတူအီးမေးလ်ကိုစလှေတျခဲ့သညျ။",
+  "resetYourPassword": "စကားဝှက်ပြောင်းရန်",
+  "setPassword": "စကားဝှက် ထားရန်",
+  "signIn": "အကောင့်ဝင်ရန်",
+  "signUp": "မှတ်ပုံတင်ရန်",
+  "signUpButton": "စာရင်း",
+  "updateYourPassword": "စကားဝှက် ပြောင်းရန်"
+}

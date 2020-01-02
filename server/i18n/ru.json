@@ -1,0 +1,18 @@
+{
+  "changePassword": "Сменить пароль",
+  "createAccount": "Создать аккаунт",
+  "currentPassword": "Текущий пароль",
+  "emailAddress": "Email",
+  "error": "Ошибка",
+  "forgotPassword": "Забыли пароль?",
+  "newPassword": "Новый пароль",
+  "password": "Пароль",
+  "passwordChanged": "Пароль изменен",
+  "passwordResetSend": "Email со сбросом пароля отправлен.",
+  "resetYourPassword": "Сбросить пароль",
+  "setPassword": "Установить пароль",
+  "signIn": "Войти",
+  "signUp": "Регистрация",
+  "signUpButton": "Зарегистрироваться",
+  "updateYourPassword": "Обновить пароль"
+}

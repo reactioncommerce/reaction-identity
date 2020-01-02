@@ -1,0 +1,18 @@
+{
+  "changePassword": "Promijeni lozinku",
+  "createAccount": "Kreiraj račun",
+  "currentPassword": "Trenutna lozinka",
+  "emailAddress": "Email Adresa",
+  "error": "Pogreška",
+  "forgotPassword": "Resetiraj lozinku",
+  "newPassword": "Nova lozinka",
+  "password": "Lozinka",
+  "passwordChanged": "Lozinka promijenjena",
+  "passwordResetSend": "E-mail s linkom za poništavanje lozinke je poslana.",
+  "resetYourPassword": "Resetiraj lozinku",
+  "setPassword": "Postavi lozinku",
+  "signIn": "Prijavi se",
+  "signUp": "Registriraj se",
+  "signUpButton": "Registrirajte se",
+  "updateYourPassword": "Ažuriraj lozinku"
+}

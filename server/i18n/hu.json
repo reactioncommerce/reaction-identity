@@ -1,0 +1,18 @@
+{
+  "changePassword": "Jelszó változtatás",
+  "createAccount": "Fiók létrehozás",
+  "currentPassword": "Aktuális jelszó",
+  "emailAddress": "Email Cím",
+  "error": "Hiba",
+  "forgotPassword": "Jelszó Csere",
+  "newPassword": "Új Jelszó",
+  "password": "Jelszó",
+  "passwordChanged": "Jelszó megváltozott",
+  "passwordResetSend": "E-mail és jelszó linket elküldtük.",
+  "resetYourPassword": "Jelszó csere",
+  "setPassword": "Jelszó megadás",
+  "signIn": "Bejelentkezés",
+  "signUp": "Regisztráció",
+  "signUpButton": "Regisztráció",
+  "updateYourPassword": "Jelszó frissítése"
+}

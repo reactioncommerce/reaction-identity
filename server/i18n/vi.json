@@ -1,0 +1,18 @@
+{
+  "changePassword": "Đổi mật khẩu",
+  "createAccount": "Tạo Tài khoản",
+  "currentPassword": "Mật khẩu hiện tại",
+  "emailAddress": "Địa chỉ Email",
+  "error": "lỗi",
+  "forgotPassword": "Quên mật khẩu?",
+  "newPassword": "Mật khẩu mới",
+  "password": "Mật khẩu",
+  "passwordChanged": "Mật khẩu đã thay đổi",
+  "passwordResetSend": "Gửi email với các liên kết thiết lập lại mật khẩu đã được gửi đi.",
+  "resetYourPassword": "Lấy lại mật khẩu",
+  "setPassword": "Đặt mật khẩu",
+  "signIn": "Đăng nhập",
+  "signUp": "Đăng ký",
+  "signUpButton": "Ghi danh",
+  "updateYourPassword": "Cập nhật mật khẩu"
+}

@@ -1,0 +1,18 @@
+{
+  "changePassword": "Смени парола",
+  "createAccount": "Създай акаунт",
+  "currentPassword": "Сегашна парола",
+  "emailAddress": "имейл адрес",
+  "error": "Грешка",
+  "forgotPassword": "забравих си паролата",
+  "newPassword": "Нова парола",
+  "password": "Парола",
+  "passwordChanged": "Паролата е променена",
+  "passwordResetSend": "Имейл с линк за нулиране на паролата е изпратен.",
+  "resetYourPassword": "Променете паролата си",
+  "setPassword": "избери парола",
+  "signIn": "Впиши се",
+  "signUp": "Регистрация",
+  "signUpButton": "Регистрирам",
+  "updateYourPassword": "Обновете паролата си"
+}

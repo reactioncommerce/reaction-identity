@@ -1,0 +1,18 @@
+{
+  "changePassword": "Zmień hasło",
+  "createAccount": "Utwórz konto",
+  "currentPassword": "Aktualne hasło",
+  "emailAddress": "Adres email",
+  "error": "Błąd",
+  "forgotPassword": "Zapomniałeś hasła?",
+  "newPassword": "Nowe hasło",
+  "password": "Hasło",
+  "passwordChanged": "Hasło zmienione",
+  "passwordResetSend": "E-mail z linkiem resetowania hasła została wysłana.",
+  "resetYourPassword": "Ustaw nowe hasło",
+  "setPassword": "Ustaw hasło",
+  "signIn": "Zaloguj się",
+  "signUp": "Zarejestruj się",
+  "signUpButton": "Rejestracja",
+  "updateYourPassword": "Zaktualizuj swoje hasło"
+}

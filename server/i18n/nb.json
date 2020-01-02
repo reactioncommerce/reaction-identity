@@ -1,0 +1,17 @@
+{
+  "changePassword": "Endre Passord",
+  "createAccount": "Opprett Konto",
+  "currentPassword": "Eksisterende Passord",
+  "emailAddress": "Epost Adresse",
+  "forgotPassword": "Nullstill passord",
+  "newPassword": "Nytt Passord",
+  "password": "Passord",
+  "passwordChanged": "Passord endret",
+  "passwordResetSend": "Epost med lenke for å nullstile passord er sendt.",
+  "resetYourPassword": "Nullstill passord",
+  "setPassword": "Sett Passord",
+  "signIn": "Logg Inn",
+  "signUp": "Registrer",
+  "signUpButton": "Registrer",
+  "updateYourPassword": "Oppdater ditt passord"
+}
