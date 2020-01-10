@@ -1,7 +1,7 @@
 {
   "name": "reaction-identity",
   "description": "A server providing identity services for Reaction Commerce using Meteor's Accounts packages",
-  "version": "3.0.0-alpha",
+  "version": "3.0.0-alpha.2",
   "homepage": "https://github.com/reactioncommerce/reaction-identity",
   "url": "https://github.com/reactioncommerce/reaction-identity",
   "repository": {
