@@ -2,7 +2,7 @@
 
 This is the beta release of the Reaction Identity project that is designed to work with our new Reaction API.
 
-Reaction releases will no longer be coordinated across all projects - we'll release each project, independently, as needed. This means version numbers will no longer be in sync. The newest versions of each project will work together. This change has two exceptions: we will release all projects in coordination for a beta release, and all projects in coordination for the official v3.0.0 release.
+*Reaction releases will no longer be coordinated across all projects - we'll release each project, independently, as needed. This means version numbers will no longer be in sync. The newest versions of each project will work together. This change has two exceptions: we will release all projects in coordination for a `beta` release, and all projects in coordination for the official `v3.0.0` release.*
 
 ## Fix
 
