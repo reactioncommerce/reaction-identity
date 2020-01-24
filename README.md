@@ -27,7 +27,7 @@ Follow the documentation to install Reaction with [Reaction Platform](https://do
 ## Get help & contact the team
 
 - [Gitter chat](https://gitter.im/reactioncommerce/reaction)
-- Report security vulnerabilities to <mailto:security@reactioncommerce.com>: [Security reporting instructions](https://docs.reactioncommerce.com/reaction-docs/master/reporting-vulnerabilities)
+- Report security vulnerabilities to <mailto:security@reactioncommerce.com>: [Security reporting instructions](https://docs.reactioncommerce.com/reaction-docs/trunk/reporting-vulnerabilities)
 - Request features in this [repository](https://github.com/reactioncommerce/reaction-feature-requests/)
 
 ## Contribute
@@ -44,7 +44,7 @@ Issue`](https://github.com/reactioncommerce/reaction-identity/issues?q=is%3Aopen
 ### Pull Request guidelines
 Pull requests should pass all automated tests, style, and security checks.
 
-Your code should pass all [acceptance tests and unit tests](https://docs.reactioncommerce.com/reaction-docs/master/testing-reaction).
+Your code should pass all [acceptance tests and unit tests](https://docs.reactioncommerce.com/reaction-docs/trunk/testing-reaction).
 Run `docker-compose run --rm identity npm run test` to run the test suites in containers.
 If you're adding functionality to Reaction, you should add tests for the added functionality.
 
