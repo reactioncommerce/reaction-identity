@@ -1,5 +1,4 @@
 import { Meteor } from "meteor/meteor";
-import { Accounts } from "meteor/accounts-base";
 import Logger from "@reactioncommerce/logger";
 import config from "./config.js";
 import { oauthLogin } from "./oauthMethods.js";
