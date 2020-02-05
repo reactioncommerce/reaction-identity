@@ -23,7 +23,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-dev
-    command: bash -c "time /home/node/.meteor/meteor npm install --no-audit && /home/node/.meteor/meteor npm start"
+    command: bash -c "npm install --no-audit && node ./.reaction/waitForMongo.js && npm start"
     volumes:
       - .:/usr/local/src/app:cached
       - reaction_meteor_local:/usr/local/src/app/.meteor/local
