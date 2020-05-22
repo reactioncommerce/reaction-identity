@@ -1,3 +1,15 @@
+# v3.1.0
+
+This release of `reaction-identity` is designed to work with v3.x of the Reaction API.
+
+### Features
+
+- feat: update to Meteor 1.10.2 ([#31](http://github.com/reactioncommerce/reaction-identity/pull/31))
+
+### Chores
+
+- chore(deps): Bump acorn from 7.1.0 to 7.1.1 ([#30](http://github.com/reactioncommerce/reaction-identity/pull/30))
+
 # v3.0.0
 
 This is the v3.0.0 release of `reaction-identity`, designed to work with v3.0.0 of the Reaction API.
