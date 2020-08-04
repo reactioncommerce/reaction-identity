@@ -1,3 +1,15 @@
+# v3.2.0
+
+This release of `reaction-identity` is designed to work with v3.x of the Reaction API.
+
+### Fixes
+
+- fix: Include X-Forwarded-Proto header on Hydra GET requests ([#35](http://github.com/reactioncommerce/reaction-identity/pull/35))
+
+### Chores
+
+- chore(deps): Bump lodash from 4.17.15 to 4.17.19 ([#34](http://github.com/reactioncommerce/reaction-identity/pull/34))
+
 # v3.1.0
 
 This release of `reaction-identity` is designed to work with v3.x of the Reaction API.
