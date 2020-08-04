@@ -25,7 +25,14 @@ if (MOCK_TLS_TERMINATION) {
  */
 const get = async (flow, challenge) => {
   try {
-    const res = await fetch(`${HYDRA_ADMIN_URL}/oauth2/auth/requests/${flow}?${flow}_challenge=${challenge}`);
+    const res = await fetch(
+      `${HYDRA_ADMIN_URL}/oauth2/auth/requests/${flow}?${flow}_challenge=${challenge}`,
+      {
+        headers: {
+          ...mockTlsTermination
+        }
+      }
+    );
     if (res.status < 200 || res.status > 302) {
       const json = await res.json();
       Logger.error(`An error occurred while making GET ${flow}-${challenge} HTTP request to Hydra: `, json.error_description);
