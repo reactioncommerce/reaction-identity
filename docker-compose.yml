@@ -13,7 +13,7 @@ networks:
 
 services:
   identity:
-    image: reactioncommerce/identity:3.2.0
+    image: reactioncommerce/identity:3.3.0
     env_file:
       - ./.env
     networks:
