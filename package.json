@@ -45,7 +45,7 @@
     "lodash": "^4.17.19",
     "meteor-node-stubs": "^1.0.0",
     "mongodb": "3.5.7",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "prop-types": "^15.7.2",
     "query-string": "^6.9.0",
     "react": "^16.12.0",
