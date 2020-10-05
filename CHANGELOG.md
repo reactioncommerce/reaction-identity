@@ -1,3 +1,18 @@
+# v3.3.0
+
+This release of `reaction-identity` is designed to work with v3.x of the Reaction API.
+
+### Chores
+
+- chore(deps): Bump bcrypt from 3.0.7 to 5.0.0 ([#37](https://github.com/reactioncommerce/reaction-identity/pull/37))
+- chore(deps): Bump node-fetch from 2.6.0 to 2.6.1 ([#41](https://github.com/reactioncommerce/reaction-identity/pull/41))
+- chore(deps): Bump bl from 2.2.0 to 2.2.1 ([#40](https://github.com/reactioncommerce/reaction-identity/pull/40))
+- chore: update to Meteor 1.11.1 ([#42](https://github.com/reactioncommerce/reaction-identity/pull/42))
+
+## Contributors
+
+Thanks to @loan-laux for contributing to this release! 🎉
+
 # v3.2.0
 
 This release of `reaction-identity` is designed to work with v3.x of the Reaction API.
