@@ -1,3 +1,11 @@
+# v3.3.1
+
+reaction-identity v3.3.1 adds patch features or bug fixes and contains no breaking changes since v3.3.0.
+
+## Chore
+
+ - chore(deps): Bump ini from 1.3.5 to 1.3.8 ([#44](https://github.com/reactioncommerce/reaction-identity/pull/44))
+
 # v3.3.0
 
 This release of `reaction-identity` is designed to work with v3.x of the Reaction API.
