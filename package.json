@@ -55,7 +55,7 @@
     "react-router-dom": "^5.1.2",
     "react-stripe-elements": "^5.0.1",
     "reacto-form": "^1.4.0",
-    "simpl-schema": "^1.5.6",
+    "simpl-schema": "^1.10.2",
     "styled-components": "^4.4.1"
   },
   "meteor": {
