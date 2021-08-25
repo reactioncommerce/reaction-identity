@@ -54,7 +54,7 @@
     "react-i18next": "^11.11.4",
     "react-router-dom": "^5.1.2",
     "react-stripe-elements": "^5.0.1",
-    "reacto-form": "^1.4.0",
+    "reacto-form": "^1.5.1",
     "simpl-schema": "^1.5.6",
     "styled-components": "^4.4.1"
   },
