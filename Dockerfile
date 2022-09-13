@@ -36,7 +36,7 @@ COPY --chown=node --from=builder /usr/local/src/appsrc/.reaction/waitForMongo.js
 
 # Install the latest version of NPM (as of when this
 # base image is built)
-RUN npm i -g npm@latest
+RUN npm i -g npm@6
 
 WORKDIR /usr/local/src/app/programs/server/
 
